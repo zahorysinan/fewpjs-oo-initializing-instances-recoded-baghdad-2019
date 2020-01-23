@@ -5,7 +5,6 @@ class breakfast{
   this.drink=drink;
 }
 }
-let breakfast=newBreakfast("hhh","hhhdd");
 class Lunch{
   constructor(salad,soup,drink){
     this.salad=salad;
@@ -13,7 +12,6 @@ class Lunch{
     this.drink=drink;
   }
 }
-let lanch=new Lanch("aa","lk","jhhg");
 class Dinner{
   constructor(soup,entree,_dessert){
     this.soup=soup;
@@ -21,6 +19,8 @@ class Dinner{
     this._dessert=_dessert;
   }
 }
+let breakfast=new Breakfast("hhh","hhhdd");
+let lanch=new Lanch("aa","lk","jhhg");
 let dinner=new Dinner("saa","dd","uy");
 breakfast;
 lanch;
